@@ -47,6 +47,14 @@ brownie test tests/integration
 
 See the [deployment documentation](scripts/deployment/README.md) for detailed information on how to deploy Curve DAO.
 
+## Deployment to Neon
+
+Deploy `PoolProxy`:
+
+```bash
+brownie run scripts/deployment/deploy_pool_proxy.py --network neon
+```
+
 ## Audits and Security
 
 Curve DAO contracts have been audited by Trail of Bits and Quantstamp. These audit reports are made available on the [Curve website](https://dao.curve.fi/audits).
